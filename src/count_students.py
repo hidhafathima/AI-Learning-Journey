@@ -1,0 +1,6 @@
+file=open("../data/student_data.csv")
+content=file.read()
+file.close()
+lines=content.split("\n")
+print(lines)
+print("Number of lines:",len(lines))
